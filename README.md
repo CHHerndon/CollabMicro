@@ -26,11 +26,11 @@ It demonstrates modern software architecture practices including service separat
 
 ---
 
-## 📐 Architecture (Mermaid Diagram)
+## 📐 Architecture
 
 ```mermaid
 flowchart TB
-    UI[Frontend: React or Blazor]
+    UI[Frontend: React]
     GW[API Gateway: Nginx]
     AUTH[Auth Service: JWT]
     MSG[Messaging Service: Chat]
